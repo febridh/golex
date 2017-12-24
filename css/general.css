@@ -1,0 +1,44 @@
+@font-face {
+	font-family: OSans;
+	src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+	font-family: OLight;
+	src: url(../fonts/OpenSans-Light.ttf);
+}
+@font-face {
+	font-family: OBold;
+	src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+	font-family: InfiniteStroke;
+	src: url(../fonts/Infinite_Stroke.otf);
+}
+body { background-color: #ecf0f1;font-family: Open Sans; }
+h1,h2,h3,h4,h5,h6,.judul { font-family: OBold; }
+p { font-family: OLight; }
+button {
+	cursor: pointer;
+	transition: 0.65s;
+}
+
+a { color: #d7b115; }
+input[type=text]:focus, input[type=password]:focus {
+	outline: none;
+	transition: 0.46s;
+}
+.bag {
+	float: left;
+	margin-bottom: 20px;
+	margin-right: 3%;
+}
+.bag-1 { width: 7%; }
+.bag-2 { width: 17%; }
+.bag-3 { width: 27%; }
+.bag-4 { width: 37%; }
+.bag-5 { width: 47%; }
+.bag-6 { width: 57%; }
+.bag-7 { width: 67%; }
+.bag-8 { width: 77%; }
+.bag-9 { width: 87%; }
+.bag-10 { width: 97%; }

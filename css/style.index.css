@@ -1,0 +1,55 @@
+body {
+	background-color: #fff;
+}
+.konten {
+	position: absolute;
+	top: 10%;left: 5%;right: 5%;
+	text-align: center;
+	color: #454545;
+}
+.konten h1 {
+	font-size: 78px;
+}
+.konten h2 {
+	font-size: 35px;
+	margin-top: -36px;
+	font-family: OLight;
+}
+.formCari {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 80px;
+	line-height: 80px;
+	border: 2px solid #2ecc71;
+	border-radius: 60px;
+}
+.formCari .box {
+	width: 75%;
+	height: 70px;
+	padding: 1px 25px 1px 25px;
+	font-size: 23px;
+	border: none;
+	color: #444;
+	background: none;
+}
+.formCari #tblCari {
+	width: 15%;
+	height: 65px;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 22px;
+	border: none;
+	border-radius: 50px;
+}
+.formCari #tblCari:hover { background-color: #27ae60; }
+.addSitus {
+	margin-top: 65px;
+	font-size: 17px;
+}
+.addSitus h3 {
+	font-family: OLight;
+	font-size: 25px;
+}
+.addSitus a {
+	color: #2ecc71;
+}
